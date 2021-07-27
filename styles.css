@@ -1,0 +1,89 @@
+body {
+    background-image: url("/images/wallpaper.jpg");
+    background-attachment: scroll;
+    background-size: 1007px 566px;
+    background-repeat: no-repeat;
+}
+
+.header {
+    text-align: center;
+    font-family: "NeoTech", sans-serif;
+    font-weight: normal;
+    padding: 10px;
+    color: white;
+}
+
+@font-face { 
+    font-family: NeoTech; src: url('neotech.otf'); 
+} 
+
+.navbar {
+    border-radius: 25px;
+    background-color: #3e7cb7;
+    background-image: url(/images/wallpaper.jpg)
+    position: sticky;
+    position: -webkit-sticky;
+    width: 100%;
+    height: auto;
+}
+
+.navbar a {
+    font-family: "NeoTech", sans-serif;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+.logo {
+    width: 150px;
+    height: 120px;
+    content: url(/images/ani_favicon.gif);
+}
+
+.navbar a.active {
+    background-color: #a0cffc;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: #0a89ff;
+    color: rgb(255, 255, 255);
+}
+
+.main {
+    text-align: center;
+    font-family: "NeoTech", sans-serif;
+    color: #00468B;
+}
+
+a:link {
+ 	color: white;
+ 	background-color: transparent;
+}
+		
+a:visited {
+	color: white;
+	background-color: transparent;
+}
+
+#fade {
+	max-width: 0px;
+	height: auto;
+}
+
+#main1 {
+	text-align: left;
+	padding: 40px;
+	float: left;
+}
+
+#main1 img {
+	float: right;
+}
